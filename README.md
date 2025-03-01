@@ -4,6 +4,10 @@ A Julia package for working with quaternions, rotations, and dual quaternions in
 
 There are various conventions for quaternions. This tool assumes right-handed coordinate systems and uses quaternions in 'wxyz' order (scalar part followed by vector parts).
 
+References:
+- https://arxiv.org/pdf/1711.02508%20
+- https://faculty.sites.iastate.edu/jia/files/inline-files/dual-quaternion.pdf
+
 [日本語版はこちら](#DualQuatUtilsjl-1)
 
 ## Features

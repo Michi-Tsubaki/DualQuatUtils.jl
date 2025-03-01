@@ -15,13 +15,13 @@ A Julia package for working with quaternions, rotations, and dual quaternions in
 
 ```julia
 using Pkg
-Pkg.add(url="https://github.com/your-username/DualQuatUtils.jl")
+Pkg.add(url="git@github.com:Michi-Tsubaki/DualQuatUtils.jl.git")
 ```
 
 Or, in the Julia REPL, press `]` to enter the package mode and run:
 
 ```
-add https://github.com/your-username/DualQuatUtils.jl
+add git@github.com:Michi-Tsubaki/DualQuatUtils.jl.git
 ```
 
 ## Quick Start
@@ -127,13 +127,13 @@ Pkg.test("DualQuatUtils")
 
 ```julia
 using Pkg
-Pkg.add(url="https://github.com/your-username/DualQuatUtils.jl")
+Pkg.add(url="git@github.com:Michi-Tsubaki/DualQuatUtils.jl.git")
 ```
 
 または、JuliaのREPLで `]` を押してパッケージモードに入り、次を実行します：
 
 ```
-add https://github.com/your-username/DualQuatUtils.jl
+add git@github.com:Michi-Tsubaki/DualQuatUtils.jl.git
 ```
 
 ## クイックスタート

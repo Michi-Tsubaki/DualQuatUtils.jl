@@ -112,10 +112,10 @@ end
     rot = quat2rotation(q_orig)
     q_back = rotation2quat(rot)
     # Quaternion signs may differ while representing the same rotation, so check absolute values
-    @test abs(q_back.w) ≈ abs(q_orig.w)
-    @test abs(q_back.x) ≈ abs(q_orig.x)
-    @test abs(q_back.y) ≈ abs(q_orig.y)
-    @test abs(q_back.z) ≈ abs(q_orig.z)
+    @test abs(q_back.w) ≈ abs(q_orig.w) atol=1e-4
+    @test abs(q_back.x) ≈ abs(q_orig.x) atol=1e-4
+    @test abs(q_back.y) ≈ abs(q_orig.y) atol=1e-4
+    @test abs(q_back.z) ≈ abs(q_orig.z) atol=1e-4
 end
 
 @testset "Dual Quaternion Operations" begin

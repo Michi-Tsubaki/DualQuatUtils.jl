@@ -120,13 +120,14 @@ Pkg.test("DualQuatUtils")
 
 # DualQuatUtils.jl
 
-3D空間における四元数、回転、双対四元数を扱うためのJuliaパッケージです。
+3D空間におけるクオータニオン，回転，同次変換行列，双対クオータニオンを扱うためのJuliaパッケージです．
+[こちら](https://github.com/Michi-Tsubaki/DualQuatUtils.jl/blob/master/docs/Quaternion_Kinematics.ipynb) のノートブックでクオータニオンや双対クオータニオンについて学べます．（日本語のみ）
 
 ## 特徴
 
-- 四元数の演算と変換
+- クオータニオンの演算と変換
 - 3D回転の様々な表現（行列、RPY角、四元数）
-- 剛体変換のための双対四元数演算
+- 剛体変換のための双対クオータニオン演算
 - 回転と変換の可視化ユーティリティ
 
 ## インストール

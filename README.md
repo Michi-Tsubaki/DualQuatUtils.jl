@@ -1,5 +1,9 @@
 # DualQuatUtils.jl
 
+[![deps](https://juliahub.com/docs/General/DualQuatUtils/stable/deps.svg)](https://juliahub.com/ui/Packages/General/DualQuatUtils?t=2)
+[![version](https://juliahub.com/docs/General/DualQuatUtils/stable/version.svg)](https://juliahub.com/ui/Packages/General/DualQuatUtils)
+[![pkgeval](https://juliahub.com/docs/General/DualQuatUtils/stable/pkgeval.svg)](https://juliahub.com/ui/Packages/General/DualQuatUtils)
+
 A Julia package for working with quaternions, rotations, and dual quaternions in 3D space.
 
 There are various conventions for quaternions. This tool assumes right-handed coordinate systems and uses quaternions in 'wxyz' order (scalar part followed by vector parts).
@@ -21,13 +25,13 @@ References:
 
 ```julia
 using Pkg
-Pkg.add(url="git@github.com:Michi-Tsubaki/DualQuatUtils.jl.git")
+Pkg.add("DualQuatUtils")
 ```
 
 Or, in the Julia REPL, press `]` to enter the package mode and run:
 
 ```
-add git@github.com:Michi-Tsubaki/DualQuatUtils.jl.git
+add DualQuatUtils
 ```
 
 ## Quick Start
@@ -134,13 +138,13 @@ Pkg.test("DualQuatUtils")
 
 ```julia
 using Pkg
-Pkg.add(url="git@github.com:Michi-Tsubaki/DualQuatUtils.jl.git")
+Pkg.add("DualQuatUtils")
 ```
 
-または、JuliaのREPLで `]` を押してパッケージモードに入り、次を実行します：
+または、JuliaのREPLで `]` を押してパッケージモードに入り，次を実行する．
 
 ```
-add git@github.com:Michi-Tsubaki/DualQuatUtils.jl.git
+add DualQuatUtils
 ```
 
 ## クイックスタート
@@ -216,13 +220,13 @@ done
 
 ## テストの実行
 
-テストを実行するには：
+テストを実行するには，
 
 ```bash
 julia --project=. -e 'using Pkg; Pkg.test()'
 ```
 
-または、JuliaのREPLで：
+または、JuliaのREPLで，
 
 ```julia
 using Pkg
